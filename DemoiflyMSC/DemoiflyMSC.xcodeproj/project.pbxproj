@@ -1,0 +1,597 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A749498D1CD1A17F0058610A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A749498C1CD1A17F0058610A /* main.m */; };
+		A74949901CD1A17F0058610A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A749498F1CD1A17F0058610A /* AppDelegate.m */; };
+		A74949931CD1A17F0058610A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A74949921CD1A17F0058610A /* ViewController.m */; };
+		A74949961CD1A17F0058610A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74949941CD1A17F0058610A /* Main.storyboard */; };
+		A74949981CD1A1800058610A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A74949971CD1A1800058610A /* Assets.xcassets */; };
+		A749499B1CD1A1800058610A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A74949991CD1A1800058610A /* LaunchScreen.storyboard */; };
+		A74949A61CD1A1800058610A /* DemoiflyMSCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74949A51CD1A1800058610A /* DemoiflyMSCTests.m */; };
+		A74949B11CD1A1800058610A /* DemoiflyMSCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A74949B01CD1A1800058610A /* DemoiflyMSCUITests.m */; };
+		A74949C11CD1A3AE0058610A /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949C01CD1A3AE0058610A /* libz.tbd */; };
+		A74949C31CD1A3B50058610A /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949C21CD1A3B50058610A /* AVFoundation.framework */; };
+		A74949C51CD1A3BE0058610A /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949C41CD1A3BE0058610A /* SystemConfiguration.framework */; };
+		A74949C71CD1A3C80058610A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949C61CD1A3C80058610A /* Foundation.framework */; };
+		A74949C91CD1A4530058610A /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949C81CD1A4530058610A /* CoreTelephony.framework */; };
+		A74949CB1CD1A4630058610A /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949CA1CD1A4630058610A /* AudioToolbox.framework */; };
+		A74949CD1CD1A4690058610A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949CC1CD1A4690058610A /* UIKit.framework */; };
+		A74949CF1CD1A4700058610A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949CE1CD1A4700058610A /* CoreLocation.framework */; };
+		A74949D11CD1A4790058610A /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949D01CD1A4790058610A /* AddressBook.framework */; };
+		A74949D31CD1A47F0058610A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949D21CD1A47F0058610A /* QuartzCore.framework */; };
+		A74949D51CD1A4840058610A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949D41CD1A4840058610A /* CoreGraphics.framework */; };
+		A74949D71CD1A4A00058610A /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949D61CD1A4A00058610A /* libc++.tbd */; };
+		A74949D91CD1A5750058610A /* iflyMSC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A74949D81CD1A5750058610A /* iflyMSC.framework */; };
+		A74949DC1CD1A6C00058610A /* VoiceConversion.m in Sources */ = {isa = PBXBuildFile; fileRef = A74949DB1CD1A6C00058610A /* VoiceConversion.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A74949A21CD1A1800058610A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74949801CD1A17F0058610A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74949871CD1A17F0058610A;
+			remoteInfo = DemoiflyMSC;
+		};
+		A74949AD1CD1A1800058610A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A74949801CD1A17F0058610A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A74949871CD1A17F0058610A;
+			remoteInfo = DemoiflyMSC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A74949881CD1A17F0058610A /* DemoiflyMSC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoiflyMSC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A749498C1CD1A17F0058610A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A749498E1CD1A17F0058610A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A749498F1CD1A17F0058610A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A74949911CD1A17F0058610A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A74949921CD1A17F0058610A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A74949951CD1A17F0058610A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A74949971CD1A1800058610A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A749499A1CD1A1800058610A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A749499C1CD1A1800058610A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74949A11CD1A1800058610A /* DemoiflyMSCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoiflyMSCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74949A51CD1A1800058610A /* DemoiflyMSCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoiflyMSCTests.m; sourceTree = "<group>"; };
+		A74949A71CD1A1800058610A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74949AC1CD1A1800058610A /* DemoiflyMSCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoiflyMSCUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A74949B01CD1A1800058610A /* DemoiflyMSCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DemoiflyMSCUITests.m; sourceTree = "<group>"; };
+		A74949B21CD1A1800058610A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A74949C01CD1A3AE0058610A /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		A74949C21CD1A3B50058610A /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		A74949C41CD1A3BE0058610A /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		A74949C61CD1A3C80058610A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A74949C81CD1A4530058610A /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		A74949CA1CD1A4630058610A /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		A74949CC1CD1A4690058610A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A74949CE1CD1A4700058610A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A74949D01CD1A4790058610A /* AddressBook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
+		A74949D21CD1A47F0058610A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		A74949D41CD1A4840058610A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A74949D61CD1A4A00058610A /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		A74949D81CD1A5750058610A /* iflyMSC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iflyMSC.framework; path = DemoiflyMSC/iflyMSC.framework; sourceTree = "<group>"; };
+		A74949DA1CD1A6C00058610A /* VoiceConversion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceConversion.h; sourceTree = "<group>"; };
+		A74949DB1CD1A6C00058610A /* VoiceConversion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceConversion.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A74949851CD1A17F0058610A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74949C91CD1A4530058610A /* CoreTelephony.framework in Frameworks */,
+				A74949D91CD1A5750058610A /* iflyMSC.framework in Frameworks */,
+				A74949D71CD1A4A00058610A /* libc++.tbd in Frameworks */,
+				A74949D51CD1A4840058610A /* CoreGraphics.framework in Frameworks */,
+				A74949D31CD1A47F0058610A /* QuartzCore.framework in Frameworks */,
+				A74949D11CD1A4790058610A /* AddressBook.framework in Frameworks */,
+				A74949CF1CD1A4700058610A /* CoreLocation.framework in Frameworks */,
+				A74949CD1CD1A4690058610A /* UIKit.framework in Frameworks */,
+				A74949CB1CD1A4630058610A /* AudioToolbox.framework in Frameworks */,
+				A74949C71CD1A3C80058610A /* Foundation.framework in Frameworks */,
+				A74949C51CD1A3BE0058610A /* SystemConfiguration.framework in Frameworks */,
+				A74949C31CD1A3B50058610A /* AVFoundation.framework in Frameworks */,
+				A74949C11CD1A3AE0058610A /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A749499E1CD1A1800058610A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74949A91CD1A1800058610A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A749497F1CD1A17F0058610A = {
+			isa = PBXGroup;
+			children = (
+				A74949D81CD1A5750058610A /* iflyMSC.framework */,
+				A74949D61CD1A4A00058610A /* libc++.tbd */,
+				A74949D41CD1A4840058610A /* CoreGraphics.framework */,
+				A74949D21CD1A47F0058610A /* QuartzCore.framework */,
+				A74949D01CD1A4790058610A /* AddressBook.framework */,
+				A74949CE1CD1A4700058610A /* CoreLocation.framework */,
+				A74949CC1CD1A4690058610A /* UIKit.framework */,
+				A74949CA1CD1A4630058610A /* AudioToolbox.framework */,
+				A74949C81CD1A4530058610A /* CoreTelephony.framework */,
+				A74949C61CD1A3C80058610A /* Foundation.framework */,
+				A74949C41CD1A3BE0058610A /* SystemConfiguration.framework */,
+				A74949C21CD1A3B50058610A /* AVFoundation.framework */,
+				A74949C01CD1A3AE0058610A /* libz.tbd */,
+				A749498A1CD1A17F0058610A /* DemoiflyMSC */,
+				A74949A41CD1A1800058610A /* DemoiflyMSCTests */,
+				A74949AF1CD1A1800058610A /* DemoiflyMSCUITests */,
+				A74949891CD1A17F0058610A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A74949891CD1A17F0058610A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A74949881CD1A17F0058610A /* DemoiflyMSC.app */,
+				A74949A11CD1A1800058610A /* DemoiflyMSCTests.xctest */,
+				A74949AC1CD1A1800058610A /* DemoiflyMSCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A749498A1CD1A17F0058610A /* DemoiflyMSC */ = {
+			isa = PBXGroup;
+			children = (
+				A749498E1CD1A17F0058610A /* AppDelegate.h */,
+				A749498F1CD1A17F0058610A /* AppDelegate.m */,
+				A74949911CD1A17F0058610A /* ViewController.h */,
+				A74949921CD1A17F0058610A /* ViewController.m */,
+				A74949DA1CD1A6C00058610A /* VoiceConversion.h */,
+				A74949DB1CD1A6C00058610A /* VoiceConversion.m */,
+				A74949941CD1A17F0058610A /* Main.storyboard */,
+				A74949971CD1A1800058610A /* Assets.xcassets */,
+				A74949991CD1A1800058610A /* LaunchScreen.storyboard */,
+				A749499C1CD1A1800058610A /* Info.plist */,
+				A749498B1CD1A17F0058610A /* Supporting Files */,
+			);
+			path = DemoiflyMSC;
+			sourceTree = "<group>";
+		};
+		A749498B1CD1A17F0058610A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A749498C1CD1A17F0058610A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A74949A41CD1A1800058610A /* DemoiflyMSCTests */ = {
+			isa = PBXGroup;
+			children = (
+				A74949A51CD1A1800058610A /* DemoiflyMSCTests.m */,
+				A74949A71CD1A1800058610A /* Info.plist */,
+			);
+			path = DemoiflyMSCTests;
+			sourceTree = "<group>";
+		};
+		A74949AF1CD1A1800058610A /* DemoiflyMSCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A74949B01CD1A1800058610A /* DemoiflyMSCUITests.m */,
+				A74949B21CD1A1800058610A /* Info.plist */,
+			);
+			path = DemoiflyMSCUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A74949871CD1A17F0058610A /* DemoiflyMSC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74949B51CD1A1800058610A /* Build configuration list for PBXNativeTarget "DemoiflyMSC" */;
+			buildPhases = (
+				A74949841CD1A17F0058610A /* Sources */,
+				A74949851CD1A17F0058610A /* Frameworks */,
+				A74949861CD1A17F0058610A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoiflyMSC;
+			productName = DemoiflyMSC;
+			productReference = A74949881CD1A17F0058610A /* DemoiflyMSC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A74949A01CD1A1800058610A /* DemoiflyMSCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74949B81CD1A1800058610A /* Build configuration list for PBXNativeTarget "DemoiflyMSCTests" */;
+			buildPhases = (
+				A749499D1CD1A1800058610A /* Sources */,
+				A749499E1CD1A1800058610A /* Frameworks */,
+				A749499F1CD1A1800058610A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74949A31CD1A1800058610A /* PBXTargetDependency */,
+			);
+			name = DemoiflyMSCTests;
+			productName = DemoiflyMSCTests;
+			productReference = A74949A11CD1A1800058610A /* DemoiflyMSCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A74949AB1CD1A1800058610A /* DemoiflyMSCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A74949BB1CD1A1800058610A /* Build configuration list for PBXNativeTarget "DemoiflyMSCUITests" */;
+			buildPhases = (
+				A74949A81CD1A1800058610A /* Sources */,
+				A74949A91CD1A1800058610A /* Frameworks */,
+				A74949AA1CD1A1800058610A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A74949AE1CD1A1800058610A /* PBXTargetDependency */,
+			);
+			name = DemoiflyMSCUITests;
+			productName = DemoiflyMSCUITests;
+			productReference = A74949AC1CD1A1800058610A /* DemoiflyMSCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A74949801CD1A17F0058610A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = zhangshaoyu;
+				TargetAttributes = {
+					A74949871CD1A17F0058610A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5JH8ZFBFJD;
+					};
+					A74949A01CD1A1800058610A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5JH8ZFBFJD;
+						TestTargetID = A74949871CD1A17F0058610A;
+					};
+					A74949AB1CD1A1800058610A = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = 5JH8ZFBFJD;
+						TestTargetID = A74949871CD1A17F0058610A;
+					};
+				};
+			};
+			buildConfigurationList = A74949831CD1A17F0058610A /* Build configuration list for PBXProject "DemoiflyMSC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A749497F1CD1A17F0058610A;
+			productRefGroup = A74949891CD1A17F0058610A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A74949871CD1A17F0058610A /* DemoiflyMSC */,
+				A74949A01CD1A1800058610A /* DemoiflyMSCTests */,
+				A74949AB1CD1A1800058610A /* DemoiflyMSCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A74949861CD1A17F0058610A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A749499B1CD1A1800058610A /* LaunchScreen.storyboard in Resources */,
+				A74949981CD1A1800058610A /* Assets.xcassets in Resources */,
+				A74949961CD1A17F0058610A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A749499F1CD1A1800058610A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74949AA1CD1A1800058610A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A74949841CD1A17F0058610A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74949931CD1A17F0058610A /* ViewController.m in Sources */,
+				A74949901CD1A17F0058610A /* AppDelegate.m in Sources */,
+				A74949DC1CD1A6C00058610A /* VoiceConversion.m in Sources */,
+				A749498D1CD1A17F0058610A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A749499D1CD1A1800058610A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74949A61CD1A1800058610A /* DemoiflyMSCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A74949A81CD1A1800058610A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A74949B11CD1A1800058610A /* DemoiflyMSCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A74949A31CD1A1800058610A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74949871CD1A17F0058610A /* DemoiflyMSC */;
+			targetProxy = A74949A21CD1A1800058610A /* PBXContainerItemProxy */;
+		};
+		A74949AE1CD1A1800058610A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A74949871CD1A17F0058610A /* DemoiflyMSC */;
+			targetProxy = A74949AD1CD1A1800058610A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A74949941CD1A17F0058610A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A74949951CD1A17F0058610A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A74949991CD1A1800058610A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A749499A1CD1A1800058610A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A74949B31CD1A1800058610A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A74949B41CD1A1800058610A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A74949B61CD1A1800058610A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoiflyMSC",
+				);
+				INFOPLIST_FILE = DemoiflyMSC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vst.VSTMALL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A74949B71CD1A1800058610A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/DemoiflyMSC",
+				);
+				INFOPLIST_FILE = DemoiflyMSC/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vst.VSTMALL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A74949B91CD1A1800058610A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoiflyMSCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vst.DemoiflyMSCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoiflyMSC.app/DemoiflyMSC";
+			};
+			name = Debug;
+		};
+		A74949BA1CD1A1800058610A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = DemoiflyMSCTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vst.DemoiflyMSCTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DemoiflyMSC.app/DemoiflyMSC";
+			};
+			name = Release;
+		};
+		A74949BC1CD1A1800058610A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoiflyMSCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vst.DemoiflyMSCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoiflyMSC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A74949BD1CD1A1800058610A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = DemoiflyMSCUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.vst.DemoiflyMSCUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = DemoiflyMSC;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A74949831CD1A17F0058610A /* Build configuration list for PBXProject "DemoiflyMSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74949B31CD1A1800058610A /* Debug */,
+				A74949B41CD1A1800058610A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74949B51CD1A1800058610A /* Build configuration list for PBXNativeTarget "DemoiflyMSC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74949B61CD1A1800058610A /* Debug */,
+				A74949B71CD1A1800058610A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74949B81CD1A1800058610A /* Build configuration list for PBXNativeTarget "DemoiflyMSCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74949B91CD1A1800058610A /* Debug */,
+				A74949BA1CD1A1800058610A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A74949BB1CD1A1800058610A /* Build configuration list for PBXNativeTarget "DemoiflyMSCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A74949BC1CD1A1800058610A /* Debug */,
+				A74949BD1CD1A1800058610A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A74949801CD1A17F0058610A /* Project object */;
+}

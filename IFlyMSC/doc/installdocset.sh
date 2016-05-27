@@ -1,0 +1,1 @@
+sudo cp -R -f -a com.iflytek.IFlyMSC.docset ~/Library/Developer/Shared/Documentation/DocSets/
